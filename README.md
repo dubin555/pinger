@@ -1,6 +1,9 @@
 # pinger
 A very simple tool to test network connectivity
 
+## Compile
+go build & ./pinger
+
 ## How to use
 - [GIN-debug] GET    /start/:ip                --> main.main.func1 (3 handlers)
 - [GIN-debug] GET    /summary/:ip              --> main.main.func2 (3 handlers)
