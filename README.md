@@ -2,13 +2,13 @@
 A very simple tool to test network connectivity
 
 ## How to use
-[GIN-debug] GET    /start/:ip                --> main.main.func1 (3 handlers)
-[GIN-debug] GET    /summary/:ip              --> main.main.func2 (3 handlers)
-[GIN-debug] GET    /stop/:ip                 --> main.main.func3 (3 handlers)
+- [GIN-debug] GET    /start/:ip                --> main.main.func1 (3 handlers)
+- [GIN-debug] GET    /summary/:ip              --> main.main.func2 (3 handlers)
+- [GIN-debug] GET    /stop/:ip                 --> main.main.func3 (3 handlers)
 
-/start/:ip  to launch a worker to ping {{ip}} 
-/stop/:ip to stop that worker
-/summary/:ip check summary of that worker
+- /start/:ip  to launch a worker to ping {{ip}} 
+- /stop/:ip to stop that worker
+- /summary/:ip check summary of that worker
 
 e.g. response
 ```
